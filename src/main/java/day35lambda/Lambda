@@ -1,0 +1,100 @@
+/*
+     1)Lambda "Functional programming":methodları kullanarak kod yazma demektir
+     digeri "Structured Programming":yapısal programlamadır, oyuncagı kendimiz kurariz bunun gibi
+
+     2)"Functional programming" "Ne yapmak gerekir?(What to do?)" ile ilgilenir
+     "Nasil yapmak gerekir?(How to do?)" ile ilgilenmez.
+
+     3)"Functional programming" Collection'lar ve Array'ler de kullanilir.
+     "Collection ve Array" yoksa lambda yoktur
+
+     4)Lambda, Java'ya "Java 8"de eklendi. Suan Java19 vardır (2023)
+
+     "stream()" elemanlari yukardan asagiya dizer."Lambda" list'i "stream" e cevirir öyle calisir.
+     "filter()" filtrelemek icin kullanilir.
+     "map()" u var olan elemani degistirmek icin kullanilir.
+     "distinct()" u tekrarli elemanlari sadece bir kere gosterir ve tekrarsizlari olduklari kadar gosterir.
+     Note : Distinct methodu ilk baslara konulursa "Lambda" ya daha az is yaptirmis oluruz.
+     "reduce()" u  kullanildiginda cok sayidaki deger bir tane degere donusmus olur.
+     Orn; reduce(0,(t,u)->t+u) ==> "t" ilk degeri "sifir" dan alir, daha sonraki degerleri toplamanin sonucundan alir.
+     "u" ise degerlerini her zaman "stream" den alir
+     get()==> methodu optional data type'ini Integer'a cevirir.
+      sorted() methodu ==> elemanlari kucukten buyuge siralar.
+     sorted(Comparator.reverseOrder())methodu ==> elemanlari buyukten kucuge siralar.  */
+
+
+
+ /*   1)Lambda "functional programing"dir.
+      2)"Functional programming" ne yapmak gerekirle(what to do) ilgilenir.Nasil yapmak gerekirle(how to do) ilgilenmez.
+      3)"Functional programming" Collection`lar ve Array`lerde kullanilir.
+      4)Lambda javaya "Java 8"de eklendi.
+      5)"Functional programming" daha hizli ve hatasiz calisir.
+      6)Stream listi yukaridan asagiya siralar.
+
+    */
+
+    nums.stream().forEach(t -> System.out.print(t + " ")); burda ne olduguna bakalım
+
+    stream():
+    yukarıdan asagıya akıs manasındadır
+    11,12,13,14 elemanlarını yan yana degil 11  seklinde gösterir
+                                            12
+                                            13
+                                            14
+
+    forEach:
+    "streamdaki her bir eleman icin" demektir
+
+    t ->System.out.print(t+" ");
+    her bir elemanı al yazıdr bosluk bırak demek
+
+    t--> stream deki her bir elemandır
+
+
+    *******  public static void printEvenElement1(List<Integer> nums)  *******
+
+    bu yapıda  "static"--> "main"in icinde kullanacagı icin
+               "void"--> cünkü sadece yazdıracak
+               "printEvenElement1"--> methodumun ismi
+               "(List<Integer> nums)" icinede listimizi ekliyoruz
+
+
+
+        ***********************************************************************************
+
+        //filter() methodu ciftleri alip siralayacak soruya göre ne istiyorsak onu yapacak
+        sadece ciftleri almayacak soruda bizden ne isteniyorsa onu filtreleyecek
+
+        ***********************************************************************************
+
+                            asagıdaki methodlar ne yapar onu yazdık
+
+        nums.stream().filter(t -> t % 2 != 0).map(t -> t * t * t).forEach(t -> System.out.print(t + " "));
+     11,12,13    11         11                     11*11                  121 199
+                 12         13                     13*13
+                 13
+
+       ***********************************************************************************
+
+       reduce(identity:0, (t,u)--> t+u);
+
+       identity:o-->yani toplama islemlerinde "sıfır" baslangıc degeri sıfırdan baslıyoruz (sum'da oldugu gibi)
+
+       (t,u)-->t+u: java ben sana iki sayı vericem sen o iki sayıyı toplayacaksın
+
+       t --> degeri ilk basta 0 sıfır alırız
+       u --> degerini herzaman streamdan alır
+
+
+
+
+
+
+
+
+
+
+
+
+
+
