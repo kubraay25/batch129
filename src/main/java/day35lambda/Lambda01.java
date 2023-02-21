@@ -137,7 +137,7 @@ public class Lambda01 {
                 map(t -> t*t).
                 reduce(1, (t, u) -> t * u);  //carpma dedigi icin baslangıc degerini 1 aldım
         System.out.println();
-        System.out.println(product);//45158400
+        System.out.println(product);
 
     }
 
