@@ -1,0 +1,474 @@
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.      --> karsıma cıkan ilk yer
+Try the new cross-platform PowerShell https://aka.ms/pscore6
+PS C:\Users\ahmet\IdeaProjects\b129Git>
+                                      git init diyorum
+
+******************************************************************************************************************
+                        Initialized empty Git repository in C:/Users/ahmet/IdeaProjects/b129Git/.git/
+                        PS C:\Users\ahmet\IdeaProjects\b129Git>
+                                                               git status
+
+****************************************************************************************************
+    On branch master
+    No commits yet
+     Untracked files:
+      (use "git add <file>..." to include in what will be committed)
+            .idea/
+            pom.xml       --> bunların rengi simdilik kırmızı
+            src/
+            target/
+    nothing added to commit but untracked files present (use "git add" to track)
+    PS C:\Users\ahmet\IdeaProjects\b129Git>
+                                           git add .
+                                    --> Area'ya göndermiş olduk yukarıdakilerin rengi yeşile dönecektir
+                                    --> working space kısmından aldık çünkü burası henüz versiyon haline
+                                    getirmediğimiz kısımdı versiyon haline getirmemiz için git add . koyarız
+                                    --> yukardaki kırmızı olarak görünen dosyalarımızı yesile cevirdik
+
+
+    warning: in the working copy of 'pom.xml', LF will be replaced by CRLF the next time Git touches it
+    PS C:\Users\ahmet\IdeaProjects\b129Git>
+                                           git status
+                                           --> dosyalarımızın rengi ve durumuna bakıyorum
+                                           --> git add . dan sonra durum kontrolü
+
+*******************************************************************************************************
+
+
+    On branch master
+    No commits yet
+      Changes to be committed:
+      (use "git rm --cached <file>..." to unstage)
+            new file:   .idea/.gitignore
+            new file:   .idea/compiler.xml        -->burdaki her görünümün rengi yeşildir
+            new file:   .idea/encodings.xml
+            new file:   .idea/jarRepositories.xml
+            new file:   .idea/misc.xml
+            new file:   .idea/vcs.xml
+            new file:   pom.xml
+            new file:   src/main/java/Toplama.java     -->biz sadece bu dosyayı ekledik diğerleri ideada
+            new file:   target/classes/Toplama.class      görünen dosyalardır
+
+    PS C:\Users\ahmet\IdeaProjects\b129Git>
+                                          git commit -m"v1"
+                                          --> versiyon haline getirelim
+
+************************************************************************************************************
+
+
+      [master (root-commit) f32082a] v1
+       9 files changed, 92 insertions(+)
+       create mode 100644 .idea/.gitignore
+       create mode 100644 .idea/compiler.xml
+       create mode 100644 .idea/encodings.xml
+       create mode 100644 .idea/jarRepositories.xml
+       create mode 100644 .idea/misc.xml                   --> yesil renkler kayboldu artık
+       create mode 100644 .idea/vcs.xml
+       create mode 100644 pom.xml
+       create mode 100644 src/main/java/Toplama.java
+       create mode 100644 target/classes/Toplama.class
+      PS C:\Users\ahmet\IdeaProjects\b129Git>
+                                            git status
+
+************************************************************************************************************
+
+        On branch master
+        nothing to commit, working tree clean   --> çalışan ağaç temiz :))
+        PS C:\Users\ahmet\IdeaProjects\b129Git>    --> burda clean dediği olay working space ve staging area
+                                                       nın bosalması ve bos olması
+
+                           ekranı temizleyebiliriz (windows cls)
+
+         --> clasımda değişiklikler yaptım
+         --> toplamda warags kullandım vs
+                                           git status yaptım
+
+
+***********************************************************************************************************
+
+
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Try the new cross-platform PowerShell https://aka.ms/pscore6
+
+PS C:\Users\ahmet\IdeaProjects\b129Git> git init
+Initialized empty Git repository in C:/Users/ahmet/IdeaProjects/b129Git/.git/
+PS C:\Users\ahmet\IdeaProjects\b129Git> git status
+On branch master
+
+No commits yet
+
+  (use "git add <file>..." to include in what will be committed)
+        pom.xml
+        src/
+        target/
+
+nothing added to commit but untracked files present (use "git add" to track)
+PS C:\Users\ahmet\IdeaProjects\b129Git> git add .
+warning: in the working copy of 'pom.xml', LF will be replaced by CRLF the next time Git touches it
+PS C:\Users\ahmet\IdeaProjects\b129Git> git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   .idea/.gitignore
+        new file:   .idea/compiler.xml
+        new file:   .idea/jarRepositories.xml
+        new file:   .idea/misc.xml
+        new file:   .idea/vcs.xml
+        new file:   pom.xml
+        new file:   src/main/java/Toplama.java
+        new file:   target/classes/Toplama.class
+
+PS C:\Users\ahmet\IdeaProjects\b129Git> git commit -m"v1"
+[master (root-commit) f32082a] v1
+ 9 files changed, 92 insertions(+)
+ create mode 100644 .idea/.gitignore
+ create mode 100644 .idea/encodings.xml
+ create mode 100644 .idea/jarRepositories.xml
+PS C:\Users\ahmet\IdeaProjects\b129Git> git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+
+        modified:   src/main/java/Toplama.java
+        modified:   target/classes/Toplama.class    --> önemli olan burası
+                                                    --> modified: yani değişiklik yaptıgımı söylüyor
+                                                    --> ayrıca bunların rengi kırmızı
+                                                    --> değişiklik yaptığımda intellij rengi maviye cevirir
+                                                    --> bu da değişiklik yaptıgımı gösterir
+
+no changes added to commit (use "git add" and/or "git commit -a")
+PS C:\Users\ahmet\IdeaProjects\b129Git>
+                                       git diff   --> son yapılan versiyon uzerindeki değişiklikleri
+                                                      görmek istiyorsam git diff deerim
+                                                  --> daha commit edilmemis değişiklikleri gösterir bize
+
+*******************************************************************************************************
+
+diff --git a/src/main/java/Toplama.java b/src/main/java/Toplama.java
+index 140cbdb..758a601 100644
+--- a/src/main/java/Toplama.java
++++ b/src/main/java/Toplama.java
+@@ -2,11 +2,14 @@ public class Toplama {
+
+     public static void main(String[] args) {
+
+:
+                                       "AND" yazana kadar enter tuşuna basıyoruz
+
+***********************************************************************************************************
+
+
+-          topla(3,2);
++          topla(3,2,5,-10);                           --> git diff dediğim için burda yapılan değişikliği
+                                                           gösterdi
+     }
+-    public static  void topla(int a , int b ){
+-
+-        System.out.println(a+b);
++    public static  void topla(int... a){
++       int toplam = 0;
++       for(int w: a){
++           toplam+=w;
++       }
++        System.out.println("toplam="+toplam);
+     }
+ }
+diff --git a/target/classes/Toplama.class b/target/classes/Toplama.class
+index 62f15dc..c90ffbc 100644
+Binary files a/target/classes/Toplama.class and b/target/classes/Toplama.class differ
+(END)
+                                    q'ya basarız çıkmak için
+
+***********************************************************************************************************
+
+                    clear  veya cls ile--> ekranı temizledik
+                            git add .  --> yaptıgım değişiklikleri v2 olarak eklemek istiyorum
+
+***********************************************************************************************************
+
+PS C:\Users\ahmet\IdeaProjects\b129Git>
+                                      git status (durum kontrolü)
+
+***********************************************************************************************************
+
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+
+        modified:   src/main/java/Toplama.java    --> ikisininde yeşil olduğunu görüyorum
+        modified:   target/classes/Toplama.class
+
+PS C:\Users\ahmet\IdeaProjects\b129Git>
+                                      git commit -m"v2"          -->  ikinci versiyonum olarak yazıyorum
+
+**********************************************************************************************************
+
+[master e0ae7ee] v2
+ 2 files changed, 7 insertions(+), 4 deletions(-)
+PS C:\Users\ahmet\IdeaProjects\b129Git>
+                                       cls veya clear: temizledik
+                                       git log
+
+***********************************************************************************************************
+
+commit e0ae7ee958e220edaa7bdea8cbebc76a03619619 (HEAD -> master)
+Author: kubraay25 <kubraaydgdu2525@gmail.com>
+Date:   Thu Feb 23 16:07:34 2023 +0300
+
+    v2
+
+commit f32082a3d4fb3e1db70a5ef92a4c7b38fcc052ec
+Author: kubraay25 <kubraaydgdu2525@gmail.com>
+:                                  enter tusuna basarız v2 versiyonu çıkana kadar
+
+
+Date:   Thu Feb 23 16:07:34 2023 +0300
+
+    v2
+
+commit f32082a3d4fb3e1db70a5ef92a4c7b38fcc052ec
+Author: kubraay25 <kubraaydgdu2525@gmail.com>
+Date:   Thu Feb 23 15:30:41 2023 +0300
+
+    v1
+(END)                              q tusuna basarız burdan cıkabilmek için
+
+
+
+PS C:\Users\ahmet\IdeaProjects\b129Git>
+                                      git log --oneline
+
+*******************************************************************************************************
+
+e0ae7ee (HEAD -> master) v2
+f32082a v1
+PS C:\Users\ahmet\IdeaProjects\b129Git>
+                                      git show e0ae7ee (burda v2 de yapmiş oldugum versiyonlara bakıyorum)
+                                               (v2 nın 7hanelik hash codunu alıyorum)
+
+*******************************************************************************************************
+
+commit e0ae7ee958e220edaa7bdea8cbebc76a03619619 (HEAD -> master)
+Author: kubraay25 <kubraaydgdu2525@gmail.com>
+Date:   Thu Feb 23 16:07:34 2023 +0300
+
+    v2
+
+diff --git a/src/main/java/Toplama.java b/src/main/java/Toplama.java
+index 140cbdb..758a601 100644
+--- a/src/main/java/Toplama.java
++++ b/src/main/java/Toplama.java
+@@ -2,11 +2,14 @@ public class Toplama {
+                                                            --> AND gelene kadar enter'liyorum
+     public static void main(String[] args) {
+
+-          topla(3,2);
++          topla(3,2,5,-10);
+
+     }
+-    public static  void topla(int a , int b ){
+-
+-        System.out.println(a+b);
++    public static  void topla(int... a){
++       int toplam = 0;
++       for(int w: a){
++           toplam+=w;
++       }
++        System.out.println("toplam="+toplam);
+     }
+ }
+diff --git a/target/classes/Toplama.class b/target/classes/Toplama.class
+index 62f15dc..c90ffbc 100644
+Binary files a/target/classes/Toplama.class and b/target/classes/Toplama.class differ
+(END)
+
+                                      --> q ile cıkıs yapıyorum
+
+*****************************************************************************************************
+
+
+PS C:\Users\ahmet\IdeaProjects\b129Git>
+                                      git show "v1 hash code"    şimdide v1de yapılan değişikliklere bakıyoruz
+
+
+******************************************************************************************************
+
+yine bir sürü dosya uzantısı çıkacaktır And gelene kadar enter yaparız
+                                        q yapıp çıkarız
+                                        cls yapıp sileriz
+                                        git log yazarız
+*******************************************************************************************************
+
+      git log yazdıktan sonra versiyonlarımızdaki tüm değişiklikleri bize gösterir
+
+******************************************************************************************************
+
+      git log --online yazdığımızda ise sadece asagıdaki kısmı verir
+
+e0ae7ee (HEAD -> master) v2
+f32082a v1
+PS C:\Users\ahmet\IdeaProjects\b129Git>
+                                    cls --> sileriz
+                                    sonra "toplama" klasörümüzde //v3 kodları olustururuz
+                                    git status deriz
+
+   ***************************************************************************************
+
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+
+        modified:   src/main/java/Toplama.java   --> su an working spacede ve kırmızı yanmakta
+
+no changes added to commit (use "git add" and/or "git commit -a")
+PS C:\Users\ahmet\IdeaProjects\b129Git>
+                                      git commit -am "v3"  (hem ekleme hem işleme ikisini bir arada yapıyorum)
+
+**************************
+
+[master 6a6cdcd] v3
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+PS C:\Users\ahmet\IdeaProjects\b129Git>                --> burada bir v3 olusturdum
+                                       git log --oneline
+
+*****************************************************
+6a6cdcd (HEAD -> master) v3
+e0ae7ee v2
+f32082a v1
+PS C:\Users\ahmet\IdeaProjects\b129Git>
+                                       git show [v3 hash code] (sadece v3 deki degişiklikleri gösterecek)
+
+
+*******************************************************
+
+
+commit 6a6cdcdbabc71e6ee70977f938966e9c7d8ffb2e (HEAD -> master)
+Author: kubraay25 <kubraaydgdu2525@gmail.com>
+Date:   Thu Feb 23 17:01:56 2023 +0300
+
+    v3
+
+diff --git a/src/main/java/Toplama.java b/src/main/java/Toplama.java
+index 758a601..22c9771 100644
+--- a/src/main/java/Toplama.java
++++ b/src/main/java/Toplama.java
+@@ -3,7 +3,7 @@ public class Toplama {
+     public static void main(String[] args) {
+
+           topla(3,2,5,-10);
+-                                                 --> sadece v3 deki değişikleri gösterir
++          //v3 kodları...
+     }
+     public static  void topla(int... a){
+        int toplam = 0;
+(END)
+                                     --> q'ya basıyorum
+                                     --> cls yapıp siliyorum
+
+*********************************************
+
+PS C:\Users\ahmet\IdeaProjects\b129Git>
+                                      git log --oneline
+
+***********************************************
+
+6a6cdcd (HEAD -> master) v3
+e0ae7ee v2
+f32082a v1
+PS C:\Users\ahmet\IdeaProjects\b129Git>
+                                      git show [v3 hash code] (v3 deki değişikleri görmem için)
+
+****************************************************
+
+commit 6a6cdcdbabc71e6ee70977f938966e9c7d8ffb2e (HEAD -> master)
+Author: kubraay25 <kubraaydgdu2525@gmail.com>
+Date:   Thu Feb 23 17:01:56 2023 +0300
+
+    v3
+
+diff --git a/src/main/java/Toplama.java b/src/main/java/Toplama.java
+index 758a601..22c9771 100644
+--- a/src/main/java/Toplama.java
++++ b/src/main/java/Toplama.java
+@@ -3,7 +3,7 @@ public class Toplama {
+     public static void main(String[] args) {
+
+           topla(3,2,5,-10);
+-
++          //v3 kodları...               --> yapılan değişikliğim buymus
+     }
+     public static  void topla(int... a){
+        int toplam = 0;
+(END)
+                                         --> q yapıp cikiyorum
+                                         --> toplama klasıma ""//v4 calısmaları" ekliyorum
+                                         --> git diff
+                                         (bu komut benim commit yapmadığım versiyonumuda gösterecek yani v4ü)
+
+****************************************************
+diff --git a/src/main/java/Toplama.java b/src/main/java/Toplama.java
+index 22c9771..944f82c 100644
+--- a/src/main/java/Toplama.java
++++ b/src/main/java/Toplama.java
+@@ -4,6 +4,7 @@ public class Toplama {
+
+           topla(3,2,5,-10);
+           //v3 kodları...
++          //v4 çalışmaları
+     }
+     public static  void topla(int... a){
+        int toplam = 0;
+(END)
+                                          --> q yapıp cıkıyorum
+                                          --> git status
+**************************************
+
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+
+        modified:   src/main/java/Toplama.java             --> bu alan kırmızı
+
+no changes added to commit (use "git add" and/or "git commit -a")
+PS C:\Users\ahmet\IdeaProjects\b129Git>
+                                        git restore .
+                                        ( working space deki kırmızı olan dosyamızı silmek istiyoruz)
+
+***************************************************
+
+PS C:\Users\ahmet\IdeaProjects\b129Git> ve sildi
+
+
+
+
+
+
+
+
+
+
+
+
+
+********************************************************************************************************
+
+       asagı yukarı tuslarını kullanarak daha öncesinde kullanmış olduğum butun komutlarımı görebilirim
+       git show ise görmek istediğim versiyonlarda ki değişiklikleri gösterir
+
+******************************************************************************************************
+
+
+
+
+
+
+
