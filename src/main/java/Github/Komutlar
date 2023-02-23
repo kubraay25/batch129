@@ -1,0 +1,94 @@
+                                            KOMUTLAR
+
+  git --version :--> bilgisayarımızda versiyonun kayıtlı olup olmadıgına bakar (git mevcut mu diye)
+
+
+  git configuration :--> yapılan commitleri burada belirtilen isim ve e posta ile iliskilendirir.
+                         Repoda calısan diger kisiler bu isim ve e postayı görür, sadece kimlik tanımlamak icin olusturulmustur.
+                         Bunun amacı yapılan degisikligi kimin yaptıgını görebilmemiz örneğin;
+                         git config --global user.name "Ali Gel"
+                         git config --global user.email "ali@gel.com"
+
+
+   gt config --global -l :--> Bu komutta GitHub'a kayıtlı oldugum user name, user email gibi bilgilerim çıkar
+                              Bu bilgilerimi degistirmemde asagıdaki gibi mümkündür
+                              git config --global user.mail "istediğim email adresini girerim" enter
+                              git config --global user.name "istediğim ismi girerim" enter
+                              git --version enter
+                              git config --global -l enter
+                              yenilediğim email ve user name cıkar
+
+
+  cd "proje adresini kopyala" enter :--> bu projemizi gite dahil eder
+                                     C:\users\kübra\OneDri\proje1(en sonda açtıgım klasörümün ismi yazmalı)
+                                     cd=(change directory):dizini degistir
+
+  git init --> Repo olusturur. Her projede en basta bir kere kullanılır.
+               Projeyi dahil ettikten sonra "git init" dedigimde gizli dosyalardaki
+               git proje klasörümde görünmüş olur.
+               "initialized empty Git repository in" yazısını görürüz yani bize şunu ifade eder
+               "bos bir git repository açıldı" der. Bu durum daha klasörümde yapmıs oldugum resim ve
+               metin dosyasının henüz repo'ma eklenmedigini gösterir(yani şu an working space'teyiz)
+
+
+  git status --> Bana genel durum aşamasını verir. Son durumu ve olası yapılması gerekenleri bize gösterir
+                 "Working Space" veya "Staging Area"nın durumunu görmek için kullanılır.mesela biz proje1
+                 klasörümüzde "git status" yaptıgımızda "resim ve metin" dosyalarımızı kırmızı görürüz
+                 Burada demek ki bize bu dosyaların henüz working space asamasında oldugunu gösterir
+                 dolayısıyla bunları "git add" yapıp Staging Area'ya sonra "commit" yapıp Commit Store'ye
+                 eklenmesini ister.(burda direkt git commit -am "" de kullanabiliriz) sürekli komutları
+                 kullandıgımda "git status" yapabilirim durumumu görebilirim.
+                             dosyalarımızın kırmızı görünümü: Working Space
+                             dosyalarımızın yeşil görünümü: Staging Area
+
+
+
+  git diff --> Burdada yapılan degisiklikleri görmüs oluruz
+
+
+  git show --> Bir versiyon içinde hangi değişikliklerin oldugunu görmek için kullanılır
+               git show [hash kodun ilk 7 karakteri] bu şekilde komut yazarız
+               Versiyonlarımızda ne tür degisiklikler yapılmıs onu gösterir
+
+
+  git add . --> Dosyaları staging area ya gönderir.
+
+
+
+  git add dosya_adı --> sadece eklemek istediğim dosyayı alırım
+
+
+
+  git commit -m"commit ismi"          --> Commit:işlemek demektir
+  git commit --amend -m"yeni isim"        Versiyon olusturur
+                                          Git'e eklediğimiz dosyaları kalıcı olarak Git veri tabanına
+                                          işlemeye commit denir.versiyonumuzu oluşturur
+                                          Burda isim degisikligini rahatlıkla yapabilirim
+
+  git commit -am "versiyon metni"  --> Hem dosyamı eklerim, hem de versiyon olustururum(kısayol)
+  (git add + git commit -m "..."       Steaging area'ya ugramadan direkt dosyamızı göndermis oluruz
+
+
+  git log --> Olusturulan versiyonları ve üzrinde yaptıgımız degişiklikleri görmek için bu komut kullanılır
+              Burada olusturmus oldugum versiyonumu görüyorum (v1)
+              Kim yapmış, hangi satte yapmış, hangi tarihte yapmış,kaç defa değişiklik
+              yapmıs bunları verir bana
+
+  git log --oneline ==> versiyonlarla alakalı yaptıgım önemli değişiklikleri verecek (HEAD -> master)
+                        versiyonların listesini verir
+                        özet gibi. kullanımı daha pratiktir
+                        git commit -am"yeni ekledigim dosya" dedikten sonra
+                        git log --oneline enter dersem yeni versiyonumuda eklemis olurum
+                        git show vebastakıhashcode ile yapılan degisiklikleri görmüs olacagım
+
+
+  git restore --> tek bir dosyayı iptal eder
+
+
+  git restore . --> Working space'deki herhangi bir dosya icin gecerli
+                --> tüm dosyaları iptal eder
+                --> dosyayı hatalı olusturdugumuzda silme sansımız olur
+
+
+  git restore --staged . --> Stage Area'da ki tüm dosyaları iptal etmek icin
+

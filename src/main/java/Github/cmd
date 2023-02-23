@@ -1,0 +1,67 @@
+                                  CMD:COMMAND
+    --> windows+R: bize pencere acar ve "cmd" yazıp enter deiz direkt karsımıza cıkar
+    --> ingilizce "command" kelimesinin kısaltmasıdır ve komut manasına gelir
+    --> windows işletim sistemlerinin komut satırı yorumlayıcısıdır
+    --> yalnızca windows isletim sisteminde kullanilan lokal bir uygulamadır
+    --> belirli komutları kullanarak işlem gerçekleştirmemize olanak tanır
+    --> kabuk programlama mantığı ile çalışan  bir kod yazma konsoludur
+    --> kısacası kod yazma konsoludur diyebiliriz
+    --> Windows tusu + R : calıstırma penceresi acilir
+                         : cmd yaz enter
+                         : komut istemi penceresi acılır
+    --> windows10 da sadece tüm yazılar renklendirilir maalesef sadece komutlar renklendirilmiyor
+    --> renklendirme : colar a enter
+    --> color help : renk kodları cıkar istedigimiz renkte yazarız
+    --> colar : sadece color yazdıgımızda enter dedigimizde eski rengin döner
+    --> color ab : bu komut arka planı renklendirir yesil yapar
+    --> color cb ve color df : kırmızı ve mor yapar
+    --> color herhangi bir sayı : renkli yapar arka ekranı
+    --> color 68 : sarı :))
+
+
+Sık Kullanılan CMD Komutları
+
+KOD	İŞLEV
+cls --> SİL
+write.exe -->WordPad
+mspaint.exe -->	Paint programı
+explorer.exe -->Windows Gezgini
+mmsys.cpl -->Ses ayarları
+powercfg.cpl-->	Güç seçenekleri
+timedate.cpl-->	Tarih ayarlama penceresi
+notepad.exe -->Not defteri
+appwiz.cpl-->Program ekle kaldır
+cleanmgr.exe -->Disk temizleyici
+taskmgr.exe	-->Görev yöneticisi
+
+
+KOD	İŞLEV
+odbcad32.exe -->Database işleme
+regedit.exe -->	Windows Kayıt Düzenleyicisi programı
+rasphone.exe -->Ağ bağlantısı
+powercfg.cpl -->Güç seçenekleri
+explorer.exe -->Windows Gezgini
+sndvol32.exe -->Ses ayarları
+nusrmgr.cpl -->	Kullanıcı hesapları
+Kodu: sigverif.exe -->İmza denetleyicisi
+shrpubw.exe -->	Network paylaşımı bilgisi
+rasphone.exe -->Erişim defteri
+progman.exe -->	Masaüstü yöneticisi
+perfmon.exe -->	Sistem monitörü
+packager.exe -->Obje paketleyici
+
+KOD	İŞLEV
+clipbrd.exe -->	Pano işlemcisi
+calc.exe -->Hesap makinesi
+dxdiag.exe -->DirectX sürümü
+drwtsn32.exe -->Sorun tanıma aracı
+verifier.exe -->Sürücü monitörü
+msconfig.exe -->Sistem ayarları
+spider.exe-->Kağıt oyunu
+osk.exe -->	Ekran klavyesi
+ntbackup.exe -->Yedekleme sihirbazı
+syskey.exe -->database
+sysedit.exe	-->Sistem yöneticisi
+sndrec32.exe -->Ses kaydedicisi
+wupdmgr.exe -->	Windows güncelleştirme penceresi
+

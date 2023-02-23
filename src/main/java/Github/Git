@@ -1,0 +1,28 @@
+                     GİT (LOCALE)
+
+  --> Git: yazdıgımız proje ve uygulamaları, bilgisayarımızda ya da harici disklerde degilde internet üzerinde
+  tutmamızı ve yönetmemizi saglayan bir versiyon kontrol sistemidir (VSK)
+
+  --> Git, Linus Torvalds tarafından tasarlanıp gelistirilmistir
+
+  --> GİT: Global (küresel)
+           Informatıon (bilgi)
+           Tracker (takip sistemidir)
+
+
+ --> Git'te olusturdugum versiyonları GitHub'da paylasırım
+ -- lokalde versiyon yönetimi yaparım (kendi bilgisayarımda)
+ -- Ooffline(çevrimdışı) calisabilirim
+ -- Hatalarımı geri alabilirim
+ -- Versiyonların arasında gecis yapabiliriz
+
+Git altyapısını olusturmak ve git komutlarını kullanabilmek icin Git kütüphanesinim kurulması gerekir
+
+ System: tüm kullanıcılar tüm repolar üxerinde etkili
+ Global: gecerli kullanıcının tüm repoları üzerinde etkili olur
+ Local: sadece gecerli repo üzerinde etkili olur
+ (en mantıklısının global oldugu söylendi)
+
+
+
+ )

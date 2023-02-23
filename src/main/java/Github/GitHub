@@ -1,0 +1,37 @@
+                                         VSK
+  --> VKS ile üzerinde calıstıgımız proje dosya ve klasör yapısındaki degisiklikleri kaydederiz
+  --> Git yapısıyla versiyonları bellege kaydetmis oluruz ama bu gecici bir bellek degildir, üzerinde yaptıgımız
+  degisiklikleri, kimin yaptıgını veya ne yaptıgımızı internet üzerinde tutmamizi saglayan sistemdir. GitHub'da
+  bunun bulut sistemidir
+  -->bazı dosyaları ve projelerin tamamını bir önceki versiyona döndürebiliriz veya üzerinde degisiklik yapıp
+  baska bir versiyona ceviririz
+  --> sonrasında versiyonları karsılastırabiliriz
+  --> probleme yol acan degisikliklerin kim tarafından yapıldıgını yespit edebiliriz
+
+
+
+      3 tip Versiyon Kontrol Sistemi vardır  1.) yerel--Git
+                                              2.) merkezi--GitHub
+                                              3.) dagınık--Git,GitHub
+
+      Yerel: Bizim kendi bilgisayar üzerinde kayıtlı olan "Git" dedigimiz yapı
+      Merkezi: sadece bir bulut üzerinde calıstıgımız bir yapı var herkes bunun üzerinde calısır "GitHub"
+      Dagınık: hem Git hem de GitHub üzerinden calısılır.Yerel ve merkezi sistem üzerinde calısıyor olacagız
+
+
+
+
+                                 GİTHUB (REMOTE)
+
+         --> Yedekleme(backup)
+         --> Proje paylasımı (share):
+         --> Projemi yayınlarım (deploy)
+         --> Ortak calısma (collobration)
+
+         yedekleme yaparak projemi korumus olurum, projemi herkesle paylasırım,projemi istedigim tüm
+         platformlarla paylasırım,ortak calısma gruplarına katılmakta zorlanmam böyle bir kolaylık
+         saglamıs olur. yereldeki kontrol sistemimiz Git'tir
+                        merkezdeki kontrol sistemimiz GitHub'tır
+
+
+

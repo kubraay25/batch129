@@ -1,0 +1,51 @@
+                  GENEL KAVRAMLAR
+
+ Repository:depolama--> versiyon kontrolve birlikte calısma altyapısını ayrı tutmak istediğimiz her bir bağımsız
+                        yapıya repository denir. Genellikle her proje için  ayrı bir repository tanımlanır
+                        eger benim repo'm yoksa "git init" komutuyla bana repo acacak
+
+ git init--> Lokal bilgisayarımızda bir projeyi(hoca ile masa üstünde actıgımız proje mesela)
+             versiyon sistemine alabilmek için "git init" komutu kullanılır
+             Bu komut kullanılınca proje klasöründe ".git" klasörü olusturulur
+             Bu local repomuzu saklayacaktır
+             Böylece repo'muzu git'e dahil etmiş oluruz repo'muzuda kullanabiliyor olucaz
+             Biz "git init" dediğimizde sadece kullanıcı üzerinde(kendi bilgisayarımda) repo olustururuz
+             fakat birde proje üzerinde repo oluturmamız gerekir
+
+ cd : change directory --> dizini degistir demek
+                       --> ulasılmak istenilen dizin icin kullanılır
+                       --> cd "proje adresi" enter
+                       --> klasörde actıgımız proje adresine "cmd" yazıp direk terminalde "cd"nin yanına
+                       bosluktan sonra enter yaparsak proje dizinini cekmis oluruz veya klasör bicimindeki
+                       projeyi direkt fare ile "cd"nin yanındaki bosluktan sürükler bırakırız
+
+Working Space:(calısma alanı)--> .git klasörünün bulundugu calısma alanıdır.
+                                 Klasörler ve dosyalar üzerinden degisiklik burada yapılır
+                                 Henüz daha klasörümde yaptigim degisiklikleri repo'ma göndermedigim durumdur
+
+Staging Area:(sahne alanı)--> versiyon olusturacak olan dosya veye klasörlerin gecici olarak toplandıgı
+                              yerdir. Versiyon(commit) olusturulduktan sonra otomatik olarak staging area
+                              bosaltılır. Bir sorun bir cakısma var mı diye bakılır kontrol edilir.
+                              "working space" ile "commit store"nin arafı sayılır
+
+ Commit Store:(taahhüt deposu)--> Git her bir commit'i ayrı bir versiyon olarak tutar. Böylece yapilan
+                                  cesitli degisikliklerden sonra projede sorunlar ortaya cıkarsa bir önceki commite
+                                  geri dönülebilir
+
+ Asagıdaki gibi lokal versiyonlar olusturabiliriz
+
+ WORKİNG SPACE --> git add dosya_adı: dersem sadece o dosyada yaptıgım hrhangi bir şeyi gönderir
+                   git add . : dersem tamamını gönderir
+                   Staging Area kısmına geçiş yapmış olurum
+
+ STAGİNG AREA --> git commit -m "commit ismi
+                  git commit -amend -m "yeni isim"
+                  Commit Store kısmına geçmiş olurum
+
+ COMMİT STORE --> işleme yaptıgımız yerdir
+
+
+ HEAD --> Bir repo icinde birden fazla commit olabilir. Bunlardan en son alınan commit'e HEAD denir
+          Bu head degistirildiginde önceki versiyonlara dönüs yapılabilir
+
+
