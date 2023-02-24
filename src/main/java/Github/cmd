@@ -1,5 +1,13 @@
+
+
                                   CMD:COMMAND
-    --> windows+R: bize pencere acar ve "cmd" yazıp enter deiz direkt karsımıza cıkar
+
+    --> Kodlarimi yazdigim klasorumu (idea'da olabilir) vsk'ya dahil edebilmem icin "cmd" konsolu acarim
+        " .git " ile sisteme dahil olurlar
+        masaustunde acmıs oldugum projemi Git ile iliskilendirmem icin "cmd konsolunu" acarim
+        Veya dosyamin adresini fare ile suruklerim (copy-paste yapabilirim)
+
+    --> windows+R: bize pencere acar ve "cmd" yazıp enter deriz direkt karsımıza cıkar
     --> ingilizce "command" kelimesinin kısaltmasıdır ve komut manasına gelir
     --> windows işletim sistemlerinin komut satırı yorumlayıcısıdır
     --> yalnızca windows isletim sisteminde kullanilan lokal bir uygulamadır

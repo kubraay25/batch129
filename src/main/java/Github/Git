@@ -1,7 +1,19 @@
-                     GİT (LOCALE)
+
+                         GİT (LOCALE)
+
+  --> Git: Yerelimizde yani lokalimizde kendi bilgisayarimizda kullandigimiz sistemdir
+
+  -- lokalimizde versiyon yonetimi yapariz
+  -- offline calisabiliriz
+  -- hatalari geri alabiliriz
+  -- versiyonlar arasinda gecis yapabilirim
 
   --> Git: yazdıgımız proje ve uygulamaları, bilgisayarımızda ya da harici disklerde degilde internet üzerinde
   tutmamızı ve yönetmemizi saglayan bir versiyon kontrol sistemidir (VSK)
+
+  --> Git yapısıyla versiyonları bellege kaydetmis oluruz ama bu gecici bir bellek degildir, üzerinde
+  yaptıgımız  degisiklikleri,kimin yaptıgını veya ne yaptıgımızı internet üzerinde tutmamizi saglayan
+  sistemdir. GitHub'da bunun bulut sistemidir
 
   --> Git, Linus Torvalds tarafından tasarlanıp gelistirilmistir
 
@@ -10,11 +22,11 @@
            Tracker (takip sistemidir)
 
 
- --> Git'te olusturdugum versiyonları GitHub'da paylasırım
- -- lokalde versiyon yönetimi yaparım (kendi bilgisayarımda)
- -- Ooffline(çevrimdışı) calisabilirim
- -- Hatalarımı geri alabilirim
- -- Versiyonların arasında gecis yapabiliriz
+  --> Git'te olusturdugum versiyonları GitHub'da paylasırım
+  -- lokalde versiyon yönetimi yaparım (kendi bilgisayarımda)
+  -- Ooffline(çevrimdışı) calisabilirim
+  -- Hatalarımı geri alabilirim
+  -- Versiyonların arasında gecis yapabiliriz
 
 Git altyapısını olusturmak ve git komutlarını kullanabilmek icin Git kütüphanesinim kurulması gerekir
 

@@ -1,0 +1,35 @@
+
+                          VSK: Versiyon Kontrol Sistemi
+
+  --> VKS ile üzerinde calistigimiz proje dosya ve klasör yapisindaki degisiklikleri kaydederiz
+
+  --> versiyon: bir romanin giris gelisme sonuc kisimlarini ayri ayri surumler olarak degerlendirebiliriz
+              : telefonumuza yeni bir guncelleme gelmesi yeni bir surum gelecegi manasini tasir vb.
+
+ --> Bazi dosyalari ve projelerin tamamini bir önceki versiyona döndürebiliriz veya üzerinde degisiklik
+ yapip baska bir versiyona ceviririz.
+
+
+  --> Zaman içerisinde yapilan degisiklikleri (versiyonlari) karsılastırabiliriz
+
+  --> probleme yol acan degisikliklerin en son kim tarafindan yapildigini tespit edebiliriz
+
+
+
+  3 tip Versiyon Kontrol Sistemi vardır   1.) yerel--Git
+                                          2.) merkezi--GitHub
+                                          3.) dagınık--Git,GitHub
+
+
+  Yerel: Bizim kendi bilgisayar üzerinde kayıtlı olan "Git" dedigimiz yapı
+       : sadece kendimiz calisabiliriz diger yapilan calismalari goremeyiz
+
+  Merkezi: sadece bir bulut üzerinde calıstıgımız bir yapı var herkes bunun üzerinde calısır "GitHub"
+         : server(sunucu)a birden fazla kisi baglanip uzerinde calisma yapabilir
+
+  Dagınık: hem Git hem de GitHub üzerinden calısılır.Yerel ve merkezi sistem üzerinde calısıyor olacagız
+         : ana projeyi kendi lokalimize cekebiliriz, sistem cokuntusunde, elektrik kesintisinde projemizi
+           muhafaza edebiliriz (server sikinti ola bile baskalarinda da bilgiler mevcut oldugundan no problem)
+
+
+
