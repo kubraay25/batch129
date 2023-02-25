@@ -47,6 +47,7 @@
 
 
   git commit -m"commit ismi" --> Commit:işlemek demektir. Versiyon olusturur
+                                 Islemi kalici hale getirmis oluruz
                                  Git'e eklediğimiz dosyaları kalıcı olarak Git veri tabanına isler
 
 
@@ -120,16 +121,34 @@
 
 
 
+  ÖNEMLİİİİİ --> Dosyanin ismini silmiyor dosyada yaptigim islemlerimi siliyor
+
+  git restore --> Tek bir dosyayı siler
+  git restore . --> Working space'deki tüm dosyalarimda yapmis oldugum degisiklikleri siler
 
 
-  git restore --> tek bir dosyayı iptal eder
+  git restore --staged --> Tek bir dosyayi siler
+  git restore --staged . --> Stage Area'da ki tüm dosyalarda yepmis oldugum degisiklikleri siler
+                         --> Stage Area bosalir Working Spaceye geri donulur
+
+  git reset --hard --> Working Space + Stage Area
+                       Buradaki mevcut olan bütün dosyalardaki degisiklikleri siler
 
 
-  git restore . --> Working space'deki tüm dosyalarimi siler
+
+  git checkout [hash code] .  --> Onceki versiyonu incelemek icin kullandigim komuttur
+                              --> Burda versiyonlar arasi gecis yapabilirim inceleyebilirim
+                              --> Sonra dosyami kalici hale getirebilirim
+                              --> Uzerinden gecmis oldugum versiyonlarimi duzeltebilir kalici hale getirebilirim
+                              --> (kalici hale getirmek = commitlemek)
+
+
+  git reset --hard [hashcode] --> Geri alinamayacak sekilde onceki versiyona geri doner
+                              --> olusturdugumuz dort versiyondan en ilkine bu komutu kullanarak gidersek
+                              sondaki diger uc versiyonumuzu kalici olarak silecektir
 
 
 
-  git restore --staged . --> Stage Area'da ki tüm dosyaları iptal etmek icin
 
            *************************************************************************
 

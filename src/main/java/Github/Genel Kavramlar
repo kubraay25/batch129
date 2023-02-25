@@ -4,6 +4,17 @@
   Dosyalarimda herhangi bir eksiltme, düzeltme,ekleme yaparsam bunlari oncelikle  git add . ve
   git commit -m"" yaparak versiyon haline getirmeliyim.
 
+  Master : ANADAL
+
+
+  Branch : DAL
+       -->branch dal manasına gelir; herkes kendi bolumunde calisir sonra master'de birlestirir
+       -->ornegin agac ve dal gibi dusunebiliriz agac-->master, dal-->branch
+       -->Orginal kodlarin guvenligi saglanir
+       -->Her developer kendi bolumunden sorumlu our
+       -->Daha hızlı gelistirme yapilir
+
+
 
   git show, git log, git diff, git status -->bu komutları her defasında kullanmamıza gerek yoktur,dilersek
                                             bakariz  yardimci komutlarimizdir
