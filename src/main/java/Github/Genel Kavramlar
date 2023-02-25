@@ -13,6 +13,16 @@
        -->Orginal kodlarin guvenligi saglanir
        -->Her developer kendi bolumunden sorumlu our
        -->Daha hızlı gelistirme yapilir
+       -->Daha az hata olusur
+       -->Sorunlar daha hizli duzeltilir
+       -->Organize kod yapisi saglanir
+       -->Kaos olusmaz
+
+
+
+     Stashing: Working space ve staging area daki  -henüz commit haline gelmemis-
+                 degisikliklerin gecici olarak geri alinmasi icin stashing islemi yapilir
+
 
 
 

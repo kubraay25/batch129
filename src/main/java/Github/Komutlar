@@ -148,6 +148,19 @@
                               sondaki diger uc versiyonumuzu kalici olarak silecektir
 
 
+  git branch [isim] --> Yeni branch olusturur
+
+  git branch --> Mevcut branchleri listeler
+
+  git branch -m [isim] --> Branch ismini degistirir
+
+  git checkout [isim] --> Branch aktif hale gelir
+
+  git merge [isim] --> İki branchi birlestirir
+
+  git branch -d [isim] --> Branchi siler
+
+
 
 
            *************************************************************************
