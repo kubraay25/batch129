@@ -20,14 +20,14 @@
 
 
 
-     Stashing: Working space ve staging area daki  -henüz commit haline gelmemis-
-                 degisikliklerin gecici olarak geri alinmasi icin stashing islemi yapilir
+     Stashing: Working space ve staging area daki  "henüz commit haline gelmemis"
+               degisikliklerin gecici olarak geri alinmasi icin stashing islemi yapilir
 
 
 
 
   git show, git log, git diff, git status -->bu komutları her defasında kullanmamıza gerek yoktur,dilersek
-                                            bakariz  yardimci komutlarimizdir
+                                             bakariz  yardimci komutlarimizdir
 
 
   Version: surum demektir,surumleme islemini Git ve GitHub'a yapacagız

@@ -154,13 +154,22 @@
 
   git branch -m [isim] --> Branch ismini degistirir
 
-  git checkout [isim] --> Branch aktif hale gelir
+  git checkout [isim] --> Branch aktif hale gelir (yesil yanar) :gecmek istedigim branche bu komutla gecerim
 
-  git merge [isim] --> İki branchi birlestirir
+  git merge [isim] --> İki branchi birlestirir, birlestirdigi branch daima masterdan bir onceki branchdir
 
   git branch -d [isim] --> Branchi siler
 
 
+
+
+  git stash --> working space ve staging areadaki degisiklikleri gecici olarak hafizaya alir ve bu bolgeleri temizler
+            --> Bir yerde farketmedigimiz herhangi bir degisikligi gormek acisindan faydalidir
+
+  git stash list --> Hafizaya alinan degisiklikleri gormek icin kullanilir
+
+  git stash pop --> Hafizaya aldigim degisiklikleri geri getirmek icin kullanirim
+                --> Geri getirdikten sonra ister commitlerim ister silerim
 
 
            *************************************************************************
