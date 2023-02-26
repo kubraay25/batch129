@@ -16,3 +16,59 @@
 
 
 
+         Hesap olusturma :Welcome to GitHub
+                          Let's begin the adventure
+                          Sign up :
+                          Enter your email--> Eposta adresini giriniz
+                          Create a password-->Sifre belirleyiniz
+                          Enter a username-->Bir kullanici adi belirliyoruz
+                          Would you like to receive product -->
+                          updates and announcements via email? --> urun guncellestirmeleri ve tanitimlardan email
+                          (Type "y" for yes "n" for no)            yoluyla haberdar olmak istemiyorsak "n" yaziyoruz
+
+         Repo olusturma:
+         Genel kavramlar:
+         GitHub calisma prensibi:
+         Clone:
+         Push & Pull:
+         Gitignore:
+         Merge & Conflicts:
+
+         Repo olusturma :Asagidaki islemleri sirasiyla takip ediyoruz
+                         Your profil
+                         Repositories
+                         New
+                         Repository name
+                         Public,Private
+                         Create repository
+
+                     --> sonra lokalimizden (calisma alanimizdan)
+                               remote (GitHuba) gonderebilmek icin
+                               asagidaki kodlari gireriz
+
+                         git init
+                         git add README.md
+                         git commit -m "first commit"
+                         git branch -M main (master olarak degistiririz)
+                         git remote add origin https://github.com/kubraay25/B103_104_105.git
+                         git push -u origin main
+
+         Repository silme:
+         --> silmek istedigimiz repo'nun uzerine tikliyoruz
+         --> "settings" diyoruz en alta ilerliyoruz
+         --> Danger Zone ==> Delete this repository tikliyoruz
+         --> Please type """"kubraay25/B103_104_105""" to confirm. diye bir yazı cikacak tirnak icine aldıgım
+         yeri kutucuga yazip tiklayinca siliniyor (bazen parola isteyip siliyor )
+
+
+
+         Repository isim degistirme:
+         -->Degistirmek istedigimiz repo'nun uzerine tikliyoruz
+         -->"settings" diyoruz en alta ilerliyoruz
+         -->Danger Zone ==> Change repository visibility ==> Change visibility
+
+
+
+
+
+

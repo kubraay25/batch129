@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="30c7ea73-7018-4447-83be-5f027649b3b1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Github/Genel Kavramlar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Github/Git" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Github/GitHub" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Github/Komutlar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Github/cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Github/GitHubb.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Github/VSK.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Github/git.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../alistirma/ifStatement.java" beforeDir="false" afterPath="$PROJECT_DIR$/../alistirma/ifStatement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Variables01.java" beforeDir="false" afterPath="$PROJECT_DIR$/Variables01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day35lambda/Lambda" beforeDir="false" afterPath="$PROJECT_DIR$/../day35lambda/Lambda" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day35lambda/Lambda02.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day35lambda/Lambda02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../target/classes/day35lambda/Lambda02.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../target/classes/day35lambda/Lambda02.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="ProjectId" id="2M8EWqxgvmJT9aNgn6I6VnyVRkQ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/ahmet/IdeaProjects/Batch129"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="30c7ea73-7018-4447-83be-5f027649b3b1" name="Changes" comment="" />
+      <created>1677140843727</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1677140843727</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

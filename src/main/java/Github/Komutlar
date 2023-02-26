@@ -155,6 +155,7 @@
   git branch -m [isim] --> Branch ismini degistirir
 
   git checkout [isim] --> Branch aktif hale gelir (yesil yanar) :gecmek istedigim branche bu komutla gecerim
+                      --> Main'den Master'a bu komutla gecerim
 
   git merge [isim] --> İki branchi birlestirir, birlestirdigi branch daima masterdan bir onceki branchdir
 
@@ -170,6 +171,32 @@
 
   git stash pop --> Hafizaya aldigim degisiklikleri geri getirmek icin kullanirim
                 --> Geri getirdikten sonra ister commitlerim ister silerim
+
+  git remote add origin https:// --> GitHubla baglanti kurmamizi saglayan komut
+                        https:// --> Repository deki adresimiz
+
+
+  git push -u origin master --> GitHub'a dosyalarimi gondermek icin kullanirim
+
+  git push --> Dosyamizi istedigimiz repo'ya gonderir
+           --> İstedigimiz baska bir repoyada gondermeyi dusunursek
+               "git push"+"repo adresi" derim
+
+  git remote -v -->Dosyami hangi adrese gonderdigimi verir
+
+  git remote set-url origin repo adresi  --> Dosyami gondermek istedigim adresi degistirmek
+                                             istersem bunu kullanirim
+
+  git pull --> Dosyalari cekmek icin kullanirim
+           --> Olusturdugum yeni dosyayi "get init" yapmak zorundayim
+           --> GitHub'dan kendi lokalime cekeceksem
+               git pull + repo adresi
+
+  git clone --> Actıgım yeni dosya klasorunu "git init" yapmaya gerek kalmadan direkt cekebilirim
+            --> Klasorun tamami gelir
+
+
+
 
 
            *************************************************************************
